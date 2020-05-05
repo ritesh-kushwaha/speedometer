@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Speedometer</title>
+  <link rel="shortcut icon" type="image/x-icon" href="css/s.png" />
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <!-- My css -->
+  <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/index.js" charset="utf-8"></script>
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/23603ed0b1.js" crossorigin="anonymous"></script>
+</head>
+<body onload="draw(0);">
+
+  <div class="center">
+    <h2>Your Speed</h2>
+   <input id="mySpeed" onchange="redraw();"  type="number" min="0" max="180" step="1" oninput="validity.valid||(value='');" value="0" >
+   <button class="button" type="submit" name="button">Speed</button>
+  </div>
+
+ <div class="speedo">
+   <canvas class="canvas" id="myCanvas" width="520" height="520">
+ </div>
+
+</body>
+<footer>
+  <div class="container-fluid">
+  <i class="social-icon fab fa-facebook-f"></i>
+  <i class="social-icon fab fa-twitter"></i>
+  <i class="social-icon fab fa-linkedin-in"></i>
+  <i class="social-icon fas fa-envelope"></i>
+  <p>&copy; 2020 Made by Ritesh Kushwaha</p>
+</div>
+</footer>
+</html>

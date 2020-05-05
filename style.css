@@ -1,0 +1,61 @@
+body{
+  height: 100%;
+  background: #304352;
+  background: -webkit-linear-gradient(to right, #d7d2cc, #304352);
+  background: linear-gradient(to right, #d7d2cc, #304352);
+
+}
+h2{
+  color: #303952;
+  margin-left: 200px;
+
+}
+
+.center {
+  margin: auto;
+  width: 60%;
+  border: 3px;
+  padding: 10px;
+}
+.speedo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+#mySpeed{
+  color: #fff;
+  width: 40%;
+  padding: 16px 20px;
+  font-size: 18px;
+  margin: 2px 0px 2px 180px;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  background-color: #30336b;
+}
+.button {
+  background-color: #576574;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #30336b;
+   color: #fff;
+   text-align: center;
+}
+.social-icon{
+  margin: 6px 6px;
+}
